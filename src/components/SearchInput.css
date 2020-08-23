@@ -1,0 +1,50 @@
+.search-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    height: 35px;
+    padding: 5px 20px;
+    border-radius: 100px;
+    width: 582px;
+    margin: 40px auto 0 auto;
+}
+.search-input input {
+    height: 30px;
+    border: none;
+    font-size: 14px;
+    margin: 0 15px;
+    flex: 1;
+}
+.search-input input:focus {
+    outline: none;
+}
+.search-input .MuiSvgIcon-root {
+    color: #9aa0a6;
+}
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.search-buttons button {
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    margin: 0 5px;
+    font-size: 14px;
+    text-transform: none;
+    color: #5F6368;
+
+}
+.search-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #000;
+    background-color: #f2f2f2;
+}
+.search-buttons button:active {
+    border: 1px solid #4d90fe;
+    background-color: #f2f2f2;
+}
+.mui-ripple-circle {
+    display: none;
+}

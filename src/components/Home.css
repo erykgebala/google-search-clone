@@ -2,21 +2,22 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    min-width: 1139px;
 }
 .home .header {
     text-align: right;
     padding: 10px 30px;
 }
-.home .header .headerRight {
+.home .header .header-right {
     display: flex;
     align-items: center;
     justify-content: space-between;
     float: right;
 }
-.home .header .headerRight > .MuiSvgIcon-root {
+.home .header .header-right > .MuiSvgIcon-root {
     margin-left: 20px;
 }
-.home .header .headerRight > .MuiAvatar-circle {
+.home .header .header-right > .MuiAvatar-circle {
     margin-left: 20px;
     width: 35px;
     height: 35px;
@@ -43,4 +44,16 @@
     justify-content: space-between;
     padding: 20px 30px;
     align-items: center;
+}
+
+.home .footer a {
+    text-decoration: inherit;
+    color: #666;
+    font-size: 14px;
+}
+.home .footer .footer-left a {
+    margin-right: 20px;
+}
+.home .footer .footer-right a {
+    margin-left: 20px;
 }
